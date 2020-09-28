@@ -43,7 +43,7 @@ const Project = () => {
     <div
       id="projects"
       className="jumbotron jumbotron-fluid m-0"
-      style={{ backgroundColor: "white" }}
+      style={{ backgroundColor: "gray" }}
     >
       {/* {projectsArray.length && (
         <div className="container container-fluid" >
@@ -56,7 +56,7 @@ const Project = () => {
         </div>
       )} */}
       <div className="cards">
-        <h1>Projects</h1>
+        <h1 className="display-4 mb-5 text-center">Projects</h1>
       </div>
       <div className="cards__container">
         <div className="cards__wrapper">
