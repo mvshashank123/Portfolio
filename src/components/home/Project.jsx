@@ -71,30 +71,30 @@ const Project = () => {
             ))} */}
             <div>
               <ProjectCard
-                src={amazon}
-                text="Amazon Clone"
-                label="Live Demo"
-                link="https://netflix-clone-6842f.web.app/"
-              />
-              <ProjectCard
                 src={covidtr}
                 text="COVID-19 Tracker"
                 label="Live Demo"
-                link="https://netflix-clone-6842f.web.app/"
+                link="https://covid-19-tracker-76b59.web.app/"
+              />
+              <ProjectCard
+                src={amazon}
+                text="Amazon Clone"
+                label="Live Demo"
+                link="https://clone-7d06d.web.app/"
               />
             </div>
             <div>
-              <ProjectCard
-                src={messaging}
-                text="Messaging Application"
-                label="Github"
-                link="https://netflix-clone-6842f.web.app/"
-              />
               <ProjectCard
                 src={netflix}
                 text="Netflix Clone"
                 label="Live Demo"
                 link="https://netflix-clone-6842f.web.app/"
+              />
+              <ProjectCard
+                src={messaging}
+                text="Messaging Application"
+                label="Github"
+                link="https://messaging-app-c260d.web.app/"
               />
             </div>
           </ul>

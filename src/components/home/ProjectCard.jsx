@@ -127,7 +127,7 @@ const ProjectCard = (props, { value }) => {
   //   );
   return (
     <div className="cards__item">
-      <a className="cards__item__link" href="">
+      <a className="cards__item__link" href={props.link}>
         <figure className="cards__item__pic-wrap" data-category={props.label}>
           <img className="cards__item__img" src={props.src} alt="" />
         </figure>
