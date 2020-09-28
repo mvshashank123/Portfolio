@@ -83,6 +83,12 @@ const Project = () => {
                 label="Live Demo"
                 link="https://clone-7d06d.web.app/"
               />
+              <ProjectCard
+                src={spotify}
+                text="Spotify Clone"
+                label="Github"
+                link="https://github.com/mvshashank123/Spotify-Clone"
+              />
             </div>
             <div>
               <ProjectCard
@@ -99,12 +105,6 @@ const Project = () => {
               />
             </div>
           </ul>
-          <ProjectCard
-            src={spotify}
-            text="Spotify Clone"
-            label="Github"
-            link="https://github.com/mvshashank123/Spotify-Clone"
-          />
         </div>
       </div>
     </div>
