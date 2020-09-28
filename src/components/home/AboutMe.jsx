@@ -1,8 +1,8 @@
 import React, { useState, useEffect, Profiler } from "react";
 import axios from "axios";
-import Pdf from "../../editable-stuff/Ana Ashrafi - Resume 2020.pdf";
-import Profile from "../../editable-stuff/Profile.jpg"
-import {Helmet} from "react-helmet";
+import Pdf from "../../editable-stuff/Shashank M V-Resume.pdf";
+import Profile from "../../editable-stuff/Profile.jpg";
+import { Helmet } from "react-helmet";
 
 import {
   aboutHeading,
@@ -13,9 +13,9 @@ import {
   instaQuerry,
 } from "../../editable-stuff/configurations.json";
 const divStyle = {
-  display: 'flex',
-  flexDirection: 'row',
-  alignItems: 'center'
+  display: "flex",
+  flexDirection: "row",
+  alignItems: "center",
 };
 const AboutMe = () => {
   const [instaProfilePic, setInstaProfilePic] = useState("");
@@ -49,30 +49,34 @@ const AboutMe = () => {
   };
 
   return (
-    <div id="aboutme" className="jumbotron jumbotron-fluid m-0" style={{backgroundColor:'#f7f7f7'}}>
+    <div
+      id="aboutme"
+      className="jumbotron jumbotron-fluid m-0"
+      style={{ backgroundColor: "#f7f7f7" }}
+    >
       <div className="container container-fluid">
         <div className="row" style={divStyle}>
-            <div className="col-5 d-none d-lg-inline align-self-center">
-              <img
-                className="border border-secondary rounded-circle"
-                src={Profile}
-                alt="profilepicture"
-                width="375"
-                height="375"
-              />
-            </div>
-            <div className="col d-lg-inline align-self-center">
+          <div className="col-5 d-none d-lg-inline align-self-center">
+            <img
+              className="border border-secondary rounded-circle"
+              src={Profile}
+              alt="profilepicture"
+              width="375"
+              height="375"
+            />
+          </div>
+          <div className="col d-lg-inline align-self-center">
             <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
-            <p className="lead text-center">{aboutDescription}</p><br/>
+            <p className="lead text-center">{aboutDescription}</p>
+            <br />
             {resumeURL && (
               <p className="lead text-center">
-                <a 
+                <a
                   className="btn btn-outline-dark btn-lg"
                   href={Pdf}
                   target="_blank"
                   rel="noreferrer noopener"
                   role="button"
-                  
                 >
                   Resume
                 </a>
