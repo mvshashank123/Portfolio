@@ -55,9 +55,9 @@ const Project = () => {
           </div>
         </div>
       )} */}
-      <div className="cards">
-        <h1 className="display-4 mb-5 text-center">Projects</h1>
-      </div>
+
+      <h1 className="display-4 mb-5 text-center">Projects</h1>
+
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
