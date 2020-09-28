@@ -1,0 +1,80 @@
+{
+  "backgroundType": "gradient",
+  "plainBackgroundMode": "daylight",
+  "gradientColors": "#E73C7E, #23A6D5, #23D5AB, #893FA6",
+  "FirstName": "Shashank",
+  "MiddleName": "",
+  "LastName": "M V",
+  "devDesc": " Web Developer | Engineer | Programmer | Technology Enthusiast | Gamer ",
+  "icons": [
+    {
+      "id": 0,
+      "image": "fa-github",
+      "url": "https://github.com/mvshashank123",
+      "style": "socialicons"
+    },
+    {
+      "id": 1,
+      "image": "fa-facebook",
+      "url": "https://www.facebook.com/shashank.mv/",
+      "style": "socialicons"
+    },
+    {
+      "id": 2,
+      "image": "fa-instagram",
+      "url": "https://www.instagram.com/mv.shashank/",
+      "style": "socialicons"
+    },
+    {
+      "id": 3,
+      "image": "fa-linkedin",
+      "url": "https://www.linkedin.com/in/shashank-mv/",
+      "style": "socialicons"
+    },
+    {
+      "id": 4,
+      "image": "fa-twitter",
+      "url": "https://twitter.com/ShashankMv",
+      "style": "socialicons"
+    }
+  ],
+  "projects": [
+    {
+      "title": "COVID-19 Tracker",
+      "link": "https://covid-19-tracker-76b59.web.app/",
+      "image": "covidtr",
+      "text": "Live Demo"
+    },
+    {
+      "title": "Netflix Clone",
+      "link": "https://netflix-clone-6842f.web.app/",
+      "image": "netflix",
+      "text": "Live Demo"
+    },
+    {
+      "title": "Amazon Clone",
+      "link": "https://clone-7d06d.web.app/",
+      "image": "amazon",
+      "text": "Live Demo"
+    },
+    {
+      "title": "Messaging Application",
+      "link": "https://messaging-app-c260d.web.app/",
+      "image": "messaging",
+      "text": "GitHub"
+    }
+  ],
+  "aboutHeading": "About Me",
+  "showInstaProfilePic": false,
+  "instaLink": "https://www.instagram.com/",
+  "instaUsername": "mv.shashank",
+  "instaQuerry": "/?__a=1",
+  "aboutDescription": "Hello! My name is Shashank, I'm a Software Engineer working at Capgemini. I work on building Web applications using React. I have a keen interest in Machine Learning and Artificial Intelligence. I also love to play games and have a zeal for learning new Technologies. ",
+  "projectHeading": "Projects",
+  "gitHubLink": "https://api.github.com/users/",
+  "gitHubUsername": "mvshashank123",
+  "gitHubQuerry": "/repos?sort=updated&direction=desc",
+  "projectsLength": 6,
+  "showNavigationbar": true,
+  "showBlog": false
+}

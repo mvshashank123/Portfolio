@@ -1,0 +1,33 @@
+<div className="row" style={divStyle}>
+                <div className="col text-center" >
+                <p className="lead text-right" style={{fontSize:'22px'}}><strong>
+                        Software Engineer Intern  
+                        <br/>
+                        June - July 2020
+                        </strong>
+                    </p>
+                    <p className="lead text-left" style={{fontSize:'22px'}}><strong>
+                        Capgemini
+                        </strong>
+                    </p>
+                    {/* <h3>Dell Technologies</h3> */}
+                </div>
+                
+                <div className="col text-center">
+                    <img
+                        // className="border border-secondary rounded-circle"
+                        src={Boeing}
+                        alt="boeing logo"
+                        width="300"
+                        height="80"
+                    />
+                    <br/>
+                    <br/>
+                    <p className="lead text-center" style={{fontSize:'22px'}}>
+                        Software Engineer Intern  
+                        <br/>
+                        May - August 2019
+                    </p>
+                    {/* <h3>Boeing</h3> */}
+                </div>-
+            </div>
