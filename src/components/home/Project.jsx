@@ -6,6 +6,7 @@ import amazon from "./images/amazon.png";
 import covidtr from "./images/covidtr.png";
 import messaging from "./images/messaging.png";
 import netflix from "./images/netflix.png";
+import spotify from "./images/spotify.png";
 import {
   projectHeading,
   gitHubLink,
@@ -98,6 +99,12 @@ const Project = () => {
               />
             </div>
           </ul>
+          <ProjectCard
+            src={spotify}
+            text="Spotify Clone"
+            label="Github"
+            link="https://github.com/mvshashank123/Spotify-Clone"
+          />
         </div>
       </div>
     </div>
