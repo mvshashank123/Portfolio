@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { showBlog, FirstName } from "../editable-stuff/configurations.json";
 
 const Navbar = (props) => {
@@ -117,6 +116,5 @@ const Navbar = (props) => {
     </nav>
   );
 };
-
 
 export default Navbar;
