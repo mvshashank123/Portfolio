@@ -17,59 +17,17 @@ import {
 } from "../../editable-stuff/configurations.json";
 
 const Project = () => {
-  // const [projectsArray, setProjectsArray] = useState([]);
-
-  // const handleRequest = useCallback((e) => {
-  //   axios
-  //     .get(gitHubLink + gitHubUsername + gitHubQuerry)
-  //     .then((response) => {
-  //       // handle success
-  //       // console.log(response.data.slice(0, 4));
-  //       return setProjectsArray(response.data.slice(0, projectsLength));
-  //     })
-  //     .catch((error) => {
-  //       // handle error
-  //       return console.error(error.message);
-  //     })
-  //     .finally(() => {
-  //       // always executed
-  //     });
-  // }, []);
-
-  // useEffect(() => {
-  //   handleRequest();
-  // }, [handleRequest]);
-
   return (
     <div
       id="projects"
       className="jumbotron jumbotron-fluid m-0"
       style={{ backgroundColor: "gray" }}
     >
-      {/* {projectsArray.length && (
-        <div className="container container-fluid" >
-          <h1 className="display-4 pb-5 text-center">{projectHeading}</h1>
-          <div className="row">
-            {projectsArray.map((project) => (
-              <ProjectCard key={project.id} id={project.id} value={project} />
-            ))}
-          </div>
-        </div>
-      )} */}
-
       <h1 className="display-4 mb-5 text-center">Projects</h1>
 
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            {/* {projects.map((project) => (
-              <ProjectCard
-                src={project.image}
-                text={project.title}
-                label={project.text}
-                link={project.link}
-              />
-            ))} */}
             <div>
               <ProjectCard
                 src={covidtr}
