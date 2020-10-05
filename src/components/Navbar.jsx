@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { showBlog, FirstName } from "../editable-stuff/configurations.json";
+import { Link } from "react-scroll";
 
 const Navbar = (props) => {
   const [isTop, setIsTop] = useState(true);
@@ -18,9 +19,16 @@ const Navbar = (props) => {
         isTop ? "bg-transparent" : "bg-gradient"
       } `}
     >
-      <a className="navbar-brand" href={process.env.PUBLIC_URL + "/#home"}>
+      <Link
+        className="navbar-brand"
+        smooth={true}
+        duration={1500}
+        delay={200}
+        spy={true}
+        to="home"
+      >
         {`<${FirstName} />`}
-      </a>
+      </Link>
       <button
         className="d-none navbar-toggler"
         type="button"
@@ -36,28 +44,41 @@ const Navbar = (props) => {
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item">
-            <a
+            <Link
               className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#aboutme"}
+              to="aboutme"
+              smooth={true}
+              delay={200}
+              duration={1500}
+              spy={true}
             >
               <b>About</b>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a
+            <Link
               className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#skills"}
+              to="skills"
+              smooth={true}
+              delay={200}
+              duration={1500}
+              spy={true}
             >
               <b>Skills</b>
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a
+            <Link
+              activeClass="active"
               className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#projects"}
+              to="projects"
+              smooth={true}
+              delay={200}
+              duration={1500}
+              spy={true}
             >
               <b>Projects</b>
-            </a>
+            </Link>
           </li>
           {/* <li className="nav-item">
             <a
@@ -70,12 +91,16 @@ const Navbar = (props) => {
             </a>
           </li> */}
           <li className="nav-item">
-            <a
+            <Link
               className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#experience"}
+              to="experience"
+              smooth={true}
+              delay={200}
+              duration={1500}
+              spy={true}
             >
               <b>Experience</b>
-            </a>
+            </Link>
           </li>
           {/* <li className="nav-item">
             <a
@@ -86,12 +111,16 @@ const Navbar = (props) => {
             </a>
           </li> */}
           <li className="nav-item">
-            <a
+            <Link
               className="nav-link lead"
-              href={process.env.PUBLIC_URL + "/#interests"}
+              to="interests"
+              smooth={true}
+              delay={200}
+              duration={1500}
+              spy={true}
             >
               <b>Interests</b>
-            </a>
+            </Link>
           </li>
           {/* <li className="nav-item">
             <a
