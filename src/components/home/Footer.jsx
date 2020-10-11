@@ -35,22 +35,7 @@ import {
             </a>{"."}
           </p>
           
-            {/* {icons.map((icon) => (
-              <a
-                key={icon.id}
-                target="_blank"
-                rel="noopener noreferrer"
-                href={icon.url}
-                aria-label={`My ${icon.image.split("-")[1]}`}
-              >
-                <i
-                  className={`fab ${icon.image}  fa-3x ${hoverstatus[icon.id]}`}
-                  onMouseOver={() => toggleHover({ icon, event: "enter" })}
-                  onMouseOut={() => toggleHover({ icon, event: "leave" })}
-                />
-              </a>
-            ))}
-         */}
+            
     <footer style={{backgroundColor:'#f7f7f7'}} className="mt-auto py-3 text-center">
       {/* <strong> &copy; 2019 </strong>*/}
       <i className="fas fa-code"></i> with <i className="fas fa-heart"></i> by{" "}

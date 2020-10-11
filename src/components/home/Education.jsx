@@ -1,4 +1,4 @@
-import React, { useState, useEffect, Profiler } from "react";
+import React from "react";
 import "./subcomponents.css";
 
 const Education = () => {
