@@ -7,6 +7,7 @@ import covidtr from "./images/covidtr.png";
 import messaging from "./images/messaging.png";
 import netflix from "./images/netflix.png";
 import spotify from "./images/spotify.png";
+import ScrollAnimation from 'react-animate-on-scroll';
 import {
   projectHeading,
   gitHubLink,
@@ -23,9 +24,14 @@ const Project = () => {
       className="jumbotron jumbotron-fluid m-0"
       style={{ backgroundColor: "gray" }}
     >
-      <h1 className="display-4 mb-5 text-center">Projects</h1>
+    
+      
 
       <div className="cards__container">
+      <ScrollAnimation animateIn='flipInY'
+  animateOut='flipOutY'>
+                <h1 className="display-4 mb-5 text-center">Projects</h1>
+              </ScrollAnimation>
         <div className="cards__wrapper">
           <ul className="cards__items">
             <div>

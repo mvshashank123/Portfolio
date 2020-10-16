@@ -2,6 +2,7 @@ import React, { useState, useEffect, Profiler } from "react";
 import axios from "axios";
 import Pdf from "../../editable-stuff/Shashank M V-Resume.pdf";
 import Profile from "../../editable-stuff/Profile.jpg";
+import ScrollAnimation from 'react-animate-on-scroll';
 import { Helmet } from "react-helmet";
 
 import {
@@ -66,7 +67,10 @@ const AboutMe = () => {
             />
           </div>
           <div className="col d-lg-inline align-self-center">
+          <ScrollAnimation animateIn='flipInY'
+          animateOut='flipOutY'>
             <h1 className="display-4 mb-5 text-center">{aboutHeading}</h1>
+            </ScrollAnimation>
             <p className="lead text-center">{aboutDescription}</p>
             <br />
             {resumeURL && (

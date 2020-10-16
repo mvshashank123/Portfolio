@@ -1,5 +1,6 @@
 import React from "react";
 import "./subcomponents.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Education = () => {
   return (
@@ -9,7 +10,10 @@ const Education = () => {
       style={{ backgroundColor: "gray" }}
     >
     <br/>
+    <ScrollAnimation animateIn='flipInY'
+    animateOut='flipOutY'>
       <h1 className="display-4 mb-5 text-center">Education</h1>
+      </ScrollAnimation>
       <div className="parent">
         <div className="education">
           <p className="p__style1" style={{ fontSize: "28px" }}>

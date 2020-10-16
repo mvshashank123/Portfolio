@@ -1,11 +1,15 @@
 import React, { useState, useEffect, Profiler } from "react";
 import "./subcomponents.css";
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const Experience = () => {
   return (
     <div id="experience" className="parent" style={{ backgroundColor: "gray" }}>
       <br />
+      <ScrollAnimation animateIn='flipInY'
+    animateOut='flipOutY'>
       <h1 className="display-4 mb-5 text-center">Experience</h1>
+      </ScrollAnimation>
       <div className="education">
         <p className="p__style1" style={{ fontSize: "28px" }}>
           <strong> Software Engineer </strong>- Capgemini

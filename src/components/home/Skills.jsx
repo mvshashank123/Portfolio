@@ -2,11 +2,15 @@ import React, { useState, useEffect, Profiler } from "react";
 import ProgressBar from "react-bootstrap/ProgressBar";
 import Tabs from "react-bootstrap/Tabs";
 import Tab from "react-bootstrap/Tab";
+import ScrollAnimation from 'react-animate-on-scroll';
+
+
 const divStyle = {
   display: "flex",
   flexDirection: "row",
   alignItems: "center",
 };
+
 const Skills = () => {
   return (
     <div
@@ -18,8 +22,10 @@ const Skills = () => {
         {/* <div className="col-5 d-none d-lg-inline align-self-center">
             </div> */}
         <div className="d-inline align-self-center">
+        <ScrollAnimation animateIn='flipInY'
+        animateOut='flipOutY'>
           <h1 className="display-4 pb-5 text-center">Skills</h1>
-
+          </ScrollAnimation>
           <Tabs
             defaultActiveKey="home"
             justify
