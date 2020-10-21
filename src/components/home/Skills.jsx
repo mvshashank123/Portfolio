@@ -19,13 +19,16 @@ const Skills = () => {
       style={{ backgroundColor: "gray" }}
     >
       <div className="container container-fluid">
-        {/* <div className="col-5 d-none d-lg-inline align-self-center">
-            </div> */}
-        <div className="d-inline align-self-center">
+        <div className="col-5 d-none d-lg-inline align-self-center">
         <ScrollAnimation animateIn='flipInY'
         animateOut='flipOutY'>
           <h1 className="display-4 pb-5 text-center">Skills</h1>
           </ScrollAnimation>
+            </div>
+            
+        <div className="d-inline align-self-center">
+        
+        
           <Tabs
             defaultActiveKey="home"
             justify

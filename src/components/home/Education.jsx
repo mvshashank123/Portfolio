@@ -10,11 +10,12 @@ const Education = () => {
       style={{ backgroundColor: "gray" }}
     >
     <br/>
-    <ScrollAnimation animateIn='flipInY'
+    
+      <div className="parent">
+      <ScrollAnimation animateIn='flipInY'
     animateOut='flipOutY'>
       <h1 className="display-4 mb-5 text-center">Education</h1>
       </ScrollAnimation>
-      <div className="parent">
         <div className="education">
           <p className="p__style1" style={{ fontSize: "28px" }}>
             <strong>Bachelor of Engineering in Mechanical</strong>
